@@ -32,3 +32,12 @@ else :
 NbTour=20
 for NbTour in range(1,21):
   print("Tour", NbTour," ok")
+
+import random
+
+nbMiddle=random.randint(0,19)
+
+while nbMiddle !=10:
+  nbMiddle=random.randint(0,19)
+else :
+    print("le chiffre est", nbMiddle, "! Bravo Jason ! la pierre est au milieu. Les Spartiates se battent pour la pierre.")
