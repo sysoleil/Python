@@ -34,10 +34,18 @@ for NbTour in range(1,21):
   print("Tour", NbTour," ok")
 
 import random
-
 nbMiddle=random.randint(0,19)
-
 while nbMiddle !=10:
   nbMiddle=random.randint(0,19)
-else :
-    print("le chiffre est", nbMiddle, "! Bravo Jason ! la pierre est au milieu. Les Spartiates se battent pour la pierre.")
+print("le chiffre est",nbMiddle,"! Bravo Jason ! la pierre est au milieu. Les Spartiates se battent pour la pierre.")
+
+NbTour=20
+for NbTour in range(1,21):
+  print("Tour", NbTour," ok")
+
+  #générer un chiffre aléatoire
+import random
+nbMilieu=random.randint(0,19)
+while nbMilieu !=10:
+  nbMilieu=random.randint(0,19)
+print("Le chiffre est",nbMilieu,". Bien joué Jason! La pierre est au milieu. Les Spartiates se battent pour la pierre")
