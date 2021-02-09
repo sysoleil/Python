@@ -49,3 +49,13 @@ nbMilieu=random.randint(0,19)
 while nbMilieu !=10:
   nbMilieu=random.randint(0,19)
 print("Le chiffre est",nbMilieu,". Bien joué Jason! La pierre est au milieu. Les Spartiates se battent pour la pierre")
+
+#pour arriver à Paris
+vent=45
+
+if vent<10:  
+  print ("Il faudra 9 jours pour atteindre Paris.")
+elif 10<vent<30:
+  print ("Il faudra 4 jours pour atteindre Paris.")
+else :
+  print("restez à la maison. Il est trop dangereux de sortir.")
